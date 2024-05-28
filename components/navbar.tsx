@@ -11,7 +11,6 @@ interface NavbarProps {
   scrollToGraphicDesign: () => void;
   scrollToTabsDemo: () => void;
   scrollToGlowingStarsBackgroundCardPreview: () => void;
-  scrollToServices: () => void; // Define scrollToServices function
 }
 
 const Navbar = ({
@@ -19,7 +18,6 @@ const Navbar = ({
   scrollToGraphicDesign,
   scrollToTabsDemo,
   scrollToGlowingStarsBackgroundCardPreview,
-  scrollToServices, // Add scrollToServices to props
 }: NavbarProps) => {
   const [isDropDownVisible, setIsDropDownVisible] = useState(false);
 

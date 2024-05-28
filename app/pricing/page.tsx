@@ -79,7 +79,6 @@ const Pricing = () => {
         scrollToGraphicDesign={() => {}}
         scrollToTabsDemo={() => {}}
         scrollToGlowingStarsBackgroundCardPreview={() => {}}
-        scrollToServices={() => {}}
       />
 
       <div className="flex items-center justify-center flex-col   ">

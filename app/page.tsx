@@ -32,7 +32,6 @@ export default function Home() {
   const graphicDesignRef = useRef<HTMLDivElement>(null);
   const tabsDemoRef = useRef<HTMLDivElement>(null);
   const glowingStarsBackgroundCardPreviewRef = useRef<HTMLDivElement>(null);
-  const servicesRef = useRef<HTMLDivElement>(null);
 
   const scrollToMacbookScrollDemo = () => {
     macbookScrollDemoRef.current?.scrollIntoView({
@@ -57,9 +56,6 @@ export default function Home() {
   };
 
   // Function to scroll to Services section
-  const scrollToServices = () => {
-    servicesRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
@@ -70,7 +66,6 @@ export default function Home() {
         scrollToGlowingStarsBackgroundCardPreview={
           scrollToGlowingStarsBackgroundCardPreview
         }
-        scrollToServices={scrollToServices}
       />
       <div className="relative">
         <Spotlight
