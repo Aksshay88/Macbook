@@ -12,7 +12,7 @@ const MacbookProducts = () => {
 
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto">
           Discover the latest Macbook models. From the Macbook Air to the
-          Macbook Pro, we&apos;ve got you covered with top-notch performance and
+          Macbook Pro, we have got you covered with top-notch performance and
           sleek designs.
         </p>
         <div className="items-center md:flex justify-center md:mx-auto md:space-x-10">

@@ -4,7 +4,6 @@ import { useState, useRef } from "react";
 import Navbar from "@/components/navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
-import Image from "next/image";
 import Link from "next/link";
 
 import GraphicDesign from "./graphic-design";

@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-
 import Link from "next/link";
 
 import { PiCheckCircleFill } from "react-icons/pi";
@@ -77,10 +75,10 @@ const Pricing = () => {
      bg-grid-white/[0.02] relative overflow-hidden"
     >
       <Navbar
-        scrollToWebsiteDesign={() => {}}
+        scrollToMacbookScrollDemo={() => {}}
         scrollToGraphicDesign={() => {}}
-        scrollToShopifyStores={() => {}}
-        scrollToBrands={() => {}}
+        scrollToTabsDemo={() => {}}
+        scrollToGlowingStarsBackgroundCardPreview={() => {}}
         scrollToServices={() => {}}
       />
 
