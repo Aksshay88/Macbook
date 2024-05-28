@@ -314,8 +314,7 @@ const items = [
     title: "Performance",
     description: (
       <span className="text-sm">
-        Experience blazing-fast performance with the MacBook's powerful
-        processor.
+        Experience blazing-fast performance with the MacBook powerful processor.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -350,7 +349,7 @@ const items = [
     title: "Touch ID Security",
     description: (
       <span className="text-sm">
-        Ensure your MacBook's security with Touch ID authentication.
+        Ensure your MacBook s security with Touch ID authentication.
       </span>
     ),
     header: <SkeletonFive />,
