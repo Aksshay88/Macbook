@@ -23,11 +23,9 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
 } from "@/components/ui/form";
 
 import { Input } from "@/components/ui/input";
@@ -35,7 +33,7 @@ import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
 
 import { Textarea } from "@/components/ui/textarea";
-import { PiCheckLight, PiSmiley } from "react-icons/pi";
+import { PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/navbar";
 
 const FormSchema = z.object({
@@ -69,7 +67,12 @@ type FormValues = {
   email: string;
   job_title: string;
   Country_name: string;
-  help: "Apple Online Store" | "How to Buy for Business" | "Find Apple Authorised Resellers" | "Apple Retail Stores" |"Other";
+  help:
+    | "Apple Online Store"
+    | "How to Buy for Business"
+    | "Find Apple Authorised Resellers"
+    | "Apple Retail Stores"
+    | "Other";
   services:
     | "Contact Apple support"
     | "Lost or Stolen Apple products"
@@ -132,7 +135,6 @@ export default function ContactForm() {
         scrollToGraphicDesign={() => {}}
         scrollToTabsDemo={() => {}}
         scrollToGlowingStarsBackgroundCardPreview={() => {}}
-        scrollToServices={() => {}}
       />
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
@@ -146,42 +148,53 @@ export default function ContactForm() {
               text-gray-300
                     "
           >
-            Let&apos;s talk about how Mac can help your productivity better.
+            Let us talk about how Mac can help your productivity better.
           </div>
 
           <div className="bg-[#f6f5f4] md:w-4/5 space-y-6 p-4 rounded-2xl my-4 hidden md:flex md:flex-col">
             <div className="flex gap-4 border-b ">
               <div className=" font-normal pb-4 ">
-                  Powerful Performance: With the latest M1 and M2 chips, Mac delivers exceptional speed and efficiency to handle your most demanding tasks.</div>
+                Powerful Performance: With the latest M1 and M2 chips, Mac
+                delivers exceptional speed and efficiency to handle your most
+                demanding tasks.
+              </div>
             </div>
 
             <div className="flex gap-4 border-b ">
               <div className=" font-normal pb-4 ">
-                    Seamless Integration: macOS works perfectly with iPhone and iPad, allowing you to start a project on one device and finish it on another with Continuity.
+                Seamless Integration: macOS works perfectly with iPhone and
+                iPad, allowing you to start a project on one device and finish
+                it on another with Continuity.
               </div>
             </div>
 
             <div className="flex gap-4  ">
               <div className=" font-normal pb-4 ">
-               Intuitive Software: Built-in apps like Safari, Mail, and Notes, along with powerful tools like Final Cut Pro and Xcode, help you accomplish more with ease.
+                Intuitive Software: Built-in apps like Safari, Mail, and Notes,
+                along with powerful tools like Final Cut Pro and Xcode, help you
+                accomplish more with ease.
               </div>
             </div>
             <div className="flex gap-4">
-             <div className="font-normal pb-4">
-               Enhanced Security: Macs come with advanced security features to protect your data and privacy, so you can focus on your work without worries.
-            </div>
+              <div className="font-normal pb-4">
+                Enhanced Security: Macs come with advanced security features to
+                protect your data and privacy, so you can focus on your work
+                without worries.
+              </div>
             </div>
             <div className="flex gap-4">
-             <div className="font-normal pb-4">
-               Long Battery Life: Macs are designed to be energy efficient, providing long-lasting battery life to keep you productive throughout the day.
+              <div className="font-normal pb-4">
+                Long Battery Life: Macs are designed to be energy efficient,
+                providing long-lasting battery life to keep you productive
+                throughout the day.
+              </div>
             </div>
+            <div className="flex gap-4">
+              <div className="font-normal pb-4">
+                Sleek Design: The sleek and lightweight design of Macs makes
+                them easy to carry, ensuring you can work from anywhere.
+              </div>
             </div>
-              <div className="flex gap-4">
-             <div className="font-normal pb-4">
-               Sleek Design: The sleek and lightweight design of Macs makes them easy to carry, ensuring you can work from anywhere.
-            </div>
-            </div>
-
           </div>
         </div>
 
@@ -287,9 +300,15 @@ export default function ContactForm() {
                         <SelectItem value="Repair and Services">
                           Repair and Services
                         </SelectItem>
-                        <SelectItem value="Apple Id support">Apple Id support</SelectItem>
-                        <SelectItem value="Lost or Stolen Apple products">Lost or Stolen Apple products</SelectItem>
-                        <SelectItem value="AppleCare Products">AppleCare Products</SelectItem>
+                        <SelectItem value="Apple Id support">
+                          Apple Id support
+                        </SelectItem>
+                        <SelectItem value="Lost or Stolen Apple products">
+                          Lost or Stolen Apple products
+                        </SelectItem>
+                        <SelectItem value="AppleCare Products">
+                          AppleCare Products
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </FormItem>
@@ -319,8 +338,12 @@ export default function ContactForm() {
                             Apple Retail Stores
                           </SelectItem>
                         </div>
-                        <SelectItem value="How to Buy for Business">How to Buy for Business</SelectItem>
-                        <SelectItem value="Apple Online Store">Apple Online Store</SelectItem>
+                        <SelectItem value="How to Buy for Business">
+                          How to Buy for Business
+                        </SelectItem>
+                        <SelectItem value="Apple Online Store">
+                          Apple Online Store
+                        </SelectItem>
 
                         <SelectItem value="Other">Other</SelectItem>
                       </SelectContent>
@@ -357,7 +380,8 @@ export default function ContactForm() {
                   />
                 </div>
                 <div className="text-xs font-light  md:w-3/4 mb-1 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                  I agree to Mac &apos; you consent to receive the latest news, updates, and communications about Mac products.
+                  I agree to Mac ; you consent to receive the latest news,
+                  updates, and communications about Mac products.
                 </div>
               </div>
 
@@ -392,13 +416,14 @@ export default function ContactForm() {
  
         px-8
 
-        ">
+        "
+              >
                 <div className="w-80 py-20">
                   <PiSmiley className="text-6xl text-[#6c6684] mx-auto" />
 
                   <div className="text-gray-500 font-light  text-center justify-center mx-auto py-10">
-                    We&apos;ve received your inquiry and will be contacting you
-                    via email shortly.
+                    We have received your inquiry and will be contacting you via
+                    email shortly.
                   </div>
                 </div>
               </div>
@@ -409,4 +434,3 @@ export default function ContactForm() {
     </div>
   );
 }
-
