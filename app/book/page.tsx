@@ -13,7 +13,6 @@ const Book = () => {
           scrollToGraphicDesign={() => {}}
           scrollToTabsDemo={() => {}}
           scrollToGlowingStarsBackgroundCardPreview={() => {}}
-          scrollToServices={() => {}}
         />
         <div
           className="text-4xl pb-5 md:text-6xl text-center 
