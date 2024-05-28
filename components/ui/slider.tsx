@@ -38,17 +38,17 @@ const SliderOne = () => {
   }
 
   const slides = [
-    "/images/macmainspec.jpeg",
-    "/images/frontback.jpg",
-    "/images/spec1.jpeg",
-    "/images/mac.jpg",
-    "/images/specmain.jpeg",
-    "/images/a14.png",
-    "/images/mac8.jpg",
-    "/images/mac6.jpeg",
-    "/images/keypad.png",
-    "/images/m1chiplap.jpg",
-    "/images/mac1.jpeg",
+    "/images/macmainspec.webp",
+    "/images/frontback.webp",
+    "/images/spec1.webp",
+    "/images/mac.webp",
+    "/images/specmain.webp",
+    "/images/a14.webp",
+    "/images/mac8.webp",
+    "/images/mac6.webp",
+    "/images/keypad.webp",
+    "/images/m1chiplap.webp",
+    "/images/mac1.webp",
   ];
   return (
     <div>
