@@ -93,6 +93,8 @@ Aceternity UI is a comprehensive user interface (UI) library designed to elevate
 
 - **Easy Integration:** Integrating Aceternity UI into your projects is a breeze, thanks to its straightforward installation process and comprehensive documentation.
 
+<a href="/docs/read.md"><img src="https://github.com/Aksshay88/Macbook/assets/119944779/1c389169-463a-42e1-b4f0-28830ed4b8a8"></a>
+
 ## Get Started
 
 To start using Aceternity UI in your projects, simply install the library via your preferred package manager:
