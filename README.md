@@ -47,7 +47,7 @@ https://github.com/Aksshay88/Macbook/assets/119944779/f57c5e52-29f8-4e0c-a381-00
 
 <img src="https://img.shields.io/badge/React-1C1E24?style=for-the-badge&logo=react&color=61DAFB"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"><img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"><img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue"><img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white"><img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"><img src="https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white"><img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"><img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"><!-- <img src="https://github-readme-stats.vercel.app/api?username={Aksshay88}&theme=blue-green" alt="Aksshay github stats" /> --><img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"><img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white "></br>
 
-<img src="img/homescreen.png" alt="home screen" />
+<img src="public/img/homescreen.png" alt="home screen" />
 
 # Project structure 
 
@@ -278,50 +278,91 @@ Do you want to use CSS variables for colors? › no / yes
 ```
 ## Usage of Shadcn in this website
 
-# Form
+## Form
 ```bash
 npx shadcn-ui@latest add form
 ```
-# Button
+## Button
 
 ```bash
 npx shadcn-ui@latest add button
 
 ```
-# Checkbox
+## Checkbox
 
 ```bash
 npx shadcn-ui@latest add checkbox
 
 ```
-# Select
+## Select
 ```bash
 npx shadcn-ui@latest add select
 
 ```
-# Input
+## Input
 ```bash
 npx shadcn-ui@latest add input
 
 ```
-# Textarea
+## Textarea
 ```bash
 npx shadcn-ui@latest add textarea
 
 ```
-# Toast
+## Toast
 ```bash
 npx shadcn-ui@latest add toast
 ```
+<img src="public/img/contact.png" alt="home screen" />
 
 
 
+## Stripe
 
-<img src="img/pricing.png" alt="home screen" />
-<img src="img/contact.png" alt="home screen" />
-<img src="img/mail.png" alt="home screen" />
-<img src="img/stripe.png" alt="home screen" />
-<img src="img/mailhaywin.png" alt="home screen" />
+Getting started
+Welcome to Stripe. Here's how to get up and running quickly and easily.
+
+Sign up and complete your business profile
+Step 1: Sign up for a Stripe account.
+
+If you are looking to connect a Stripe account to one of our platform partners, follow these instructions instead.
+
+Step 2: Verify your email.
+
+You'll receive an email immediately after signing up with a link to verify your email address.
+
+Step 3: Complete your business profile to activate your account.
+
+This is necessary to enable certain capabilities for your account, such as accepting live payments, and for Stripe to comply with know your customer (KYC) regulations.
+
+
+Create a new Payment Link 
+
+<img src="public/img/stripe.png" alt="home screen" />
+
+
+
+<img src="public/img/pricing.png" alt="home screen" />
+
+```tsx
+<div className={plan.button}>
+                {index === 0 && (
+                  <Link
+                    href="Your_Stripe_url_link"
+                    className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300"
+                  >
+                    Buy Now
+                  </Link>
+                )}
+                {index === 1 && (
+                  <Link
+                    href="Your_Stripe_url_link"
+                    className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300"
+                  >
+                    Buy Now
+                  </Link>
+                )}
+```
 
 
 
@@ -360,6 +401,8 @@ export default function Home() {
 ```
 Go to the [Calendly](https://calendly.com/) create a new meeting schedule and copy the link and paste it in the url prop.
 
+<img src="public/img/mail.png" alt="home screen" />
+<img src="public/img/mailhaywin.png" alt="home screen" />
 
 ## License
 
