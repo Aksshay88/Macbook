@@ -30,6 +30,8 @@ Scroll through the page and see the image come out of the screen.
 
 `Hero` `Footer` `Scroll` `Image` `Parallax` `section`
 
+<img src="../comp/macscroll.png" width="700">
+
 # Installation
 
 # Install dependencies
