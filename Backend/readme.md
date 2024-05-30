@@ -63,36 +63,36 @@ npx shadcn-ui@latest add textarea
 ```bash
 npx shadcn-ui@latest add toast
 ```
-<img src="public/img/contact.png" alt="home screen" />
+<img src="../public/img/contact.png" alt="home screen" />
 
 
 
 ## Stripe
 
 Getting started
-Welcome to Stripe. Here's how to get up and running quickly and easily.
+Welcome to Stripe. Here's how to get up and running quickly and easily.</br>
 
-Sign up and complete your business profile
-Step 1: Sign up for a Stripe account.
+Sign up and complete your business profile</br>
+Step 1: Sign up for a Stripe account.</br>
 
-If you are looking to connect a Stripe account to one of our platform partners, follow these instructions instead.
+If you are looking to connect a Stripe account to one of our platform partners, follow these instructions instead.</br>
 
-Step 2: Verify your email.
+Step 2: Verify your email.</br>
 
-You'll receive an email immediately after signing up with a link to verify your email address.
+You'll receive an email immediately after signing up with a link to verify your email address.</br>
 
-Step 3: Complete your business profile to activate your account.
+Step 3: Complete your business profile to activate your account.</br>
 
-This is necessary to enable certain capabilities for your account, such as accepting live payments, and for Stripe to comply with know your customer (KYC) regulations.
+This is necessary to enable certain capabilities for your account, such as accepting live payments, and for Stripe to comply with know your customer (KYC) regulations.</br>
 
 
 Create a new Payment Link 
 
-<img src="public/img/stripe.png" alt="home screen" />
+<img src="../public/img/stripe.png" alt="home screen" />
 
 
 
-<img src="public/img/pricing.png" alt="home screen" />
+<img src="../public/img/pricing.png" alt="home screen" />
 
 ```tsx
 <div className={plan.button}>
@@ -151,5 +151,13 @@ export default function Home() {
 ```
 Go to the [Calendly](https://calendly.com/) create a new meeting schedule and copy the link and paste it in the url prop.
 
-<img src="public/img/mail.png" alt="home screen" />
-<img src="public/img/mailhaywin.png" alt="home screen" />
+
+
+These are the mails from the user who have used the website for the booking the mac where the user can interact with the staffs and he can get the quote from us 
+
+The below mail is for the company side which the staffs will respond to the client.
+<img src="../public/img/mail.png" alt="home screen" />
+
+
+This is the mail which user gets when he book a mac 
+<img src="../public/img/mailhaywin.png" alt="home screen" />
