@@ -1,3 +1,27 @@
+<div align=center>
+<h1>Macbook</h1> 
+<img src="https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white width=400">
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&color=black width=400">
+</div>
+<br>
+
+<a href="../Getting_Started/readme.md">Getting Started</a>
+
+<a href="../Frontend/readme.md">Aceternity_UI</a>
+
+<a href="../backend_raw/readme.md">BACKEND</a>
+
+
+
+</br>
+
+
+
+
+
+
+
+
 ## Get Started
 
 To start using Aceternity UI in your projects, simply install the library via your preferred package manager:
@@ -52,6 +76,8 @@ Now, you can start the development server:
 Run `npm run dev` to start the development server.
 Visit `http://localhost:3000` to view your application.
 Edit `app/page.tsx` (or `pages/index.tsx`) file and save it to see the updated result in your browser.
+
+
 
 ## Components
 
