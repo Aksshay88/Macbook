@@ -1,7 +1,11 @@
-This is the Backend part where the core parts will be added .
+<div align=center>
+<h1>Macbook</h1> 
+<img src="https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white width=400">
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&color=black width=400">
+</div>
+<br>
 
-
-## Shadcn 
+# Shadcn 
 
 Shadcn is a comprehensive user interface (UI) library designed to elevate the visual aesthetics and user experience of your applications. With a wide range of customizable components and stunning design elements, Shadcn UI empowers developers to create captivating interfaces that captivate users.
 
@@ -13,7 +17,7 @@ Run the `shadcn-ui` init command to setup your project:
 ```bash
 npx shadcn-ui@latest init
 ```
-# Configure components.json
+## Configure components.json
 You will be asked a few questions to configure `components.json`:
 ```bash
 Which style would you like to use? › Default
