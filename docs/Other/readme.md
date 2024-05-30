@@ -63,17 +63,41 @@ To get started with Macbook, follow these steps:
 
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
    
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-- [Aksshay88](https://github.com/Aksshay88)
-
 
 ## Support
 
 For support, please contact the author at
 
 - Email: aksshaybala8846@gmail.com
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.<br />
+Feel free to check [issues page](https://github.com/Aksshay88/Macbook/issues) if you want to contribute.<br />
+[Check the contributing guide](./CONTRIBUTING.md).<br />
+
+
+
+## Show your support
+
+Please ⭐ this repository if this project helped you!
+
+## 👨‍💻 Developers 
+
+<div align="center">
+ <a href="https://github.com/Aksshay88">
+    <img src="https://img.shields.io/badge/Aksshay88-000.svg?&style=for-the-badge&logo=github&logoColor=white" />
+ </a>
+</div>
+
+
+## 📝 License
+
+Copyright © 2023 [Aksshay88](https://github.com/Aksshay88).<br />
+
+---
+
+
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Open+Sans&color000&width=500&lines=Show+Some+Love+By+Giving+it+A+⭐.." >
