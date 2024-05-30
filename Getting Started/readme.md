@@ -1,3 +1,12 @@
+<div align=center>
+<h1>Macbook</h1> 
+<img src="https://img.shields.io/badge/Apple-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white width=400">
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&color=black width=400">
+</div>
+<br>
+
+
+
 ## Get Started
 
 To start using Aceternity UI in your projects, simply install the library via your preferred package manager:
@@ -54,5 +63,5 @@ Visit `http://localhost:3000` to view your application.
 Edit `app/page.tsx` (or `pages/index.tsx`) file and save it to see the updated result in your browser.
 
 
-
+<a href="/Aceternity_ui/readme.md"><img src="https://github.com/Aksshay88/Macbook/assets/119944779/1c389169-463a-42e1-b4f0-28830ed4b8a8"></a>
 
