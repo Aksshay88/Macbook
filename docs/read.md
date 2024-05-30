@@ -49,7 +49,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 To get started with Macbook, follow these steps:
 
-1. **Clone the Repository**: Clone the MyStory repository to your local machine.
+1. **Clone the Repository**: Clone the Macbook repository to your local machine.
    ```bash
    git clone https://github.com/yourusername/Macbook.git
    ```
