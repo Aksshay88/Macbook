@@ -11,7 +11,7 @@
 
 <a href="../Backend/readme.md">BACKEND</a>
 
-<a href="../Other/readme.md">OTHER</a>
+<a href="../docs/Other/readme.md">OTHER</a>
 
 </br>
 
