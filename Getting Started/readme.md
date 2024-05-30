@@ -6,7 +6,6 @@
 <br>
 
 
-
 ## Get Started
 
 To start using Aceternity UI in your projects, simply install the library via your preferred package manager:
